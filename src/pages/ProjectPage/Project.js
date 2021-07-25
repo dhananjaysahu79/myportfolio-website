@@ -9,7 +9,8 @@ import {
   CardWrapper,
   CardImg,
   HorizBar,
-  ProjectDesc
+  ProjectDesc,
+  ButtText
 }from './Project.elements';
 
 function Project(){
@@ -26,7 +27,12 @@ function Project(){
                <h3>Deskpixel-Wallpaper & Photos</h3>
                <HorizBar></HorizBar>
                <ProjectDesc>An Android application built with the help of Flutter,Cloud Firestore and GoogleDrive. Deskpixel is a wallpaper cum photos app which contains around a million photos that are clicked by users across the globe. </ProjectDesc>
-               <Button>Read More</Button>
+                <Button>
+                  <ButtText href = "https://github.com/dhananjaysahu79/wallpaperApp"
+                    target = '_blank'>
+                    Read More
+                  </ButtText>
+                </Button>
              </CardWrapper>
            </ProjectCard>
            <ProjectCard>
@@ -36,7 +42,12 @@ function Project(){
                <h3>Covid-19 Tracker App (Open Api's)</h3>
                <HorizBar></HorizBar>
                <ProjectDesc>An Android application built with the help of Flutter and some open source Api's(Rapid Api and Covid19India.org Api). The App collect data from two Api's and brings it to the user. It shows detailed data of India specific regions. </ProjectDesc>
-               <Button>Check Out</Button>
+               <Button>
+                  <ButtText href = "https://github.com/dhananjaysahu79/Covid-19TrackerApp"
+                    target = '_blank'>
+                    Read More
+                  </ButtText>
+                </Button>
              </CardWrapper>
            </ProjectCard>
            <ProjectCard>
@@ -46,7 +57,12 @@ function Project(){
                <h3>SpamCleaner (F the Dragon)</h3>
                <HorizBar></HorizBar>
                <ProjectDesc>Andoid app to remove spam apps from your device.This project only helps you to guide how to detect spam apps if you know the list of spam apps.These types of apps got limelight when Government of India banned some apps for security purposes.</ProjectDesc>
-               <Button>Check Out</Button>
+               <Button>
+                  <ButtText href = "https://github.com/dhananjaysahu79/spamCleaner"
+                    target = '_blank'>
+                    Read More
+                  </ButtText>
+                </Button>
              </CardWrapper>
            </ProjectCard>
 

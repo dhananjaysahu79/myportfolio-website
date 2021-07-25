@@ -83,3 +83,10 @@ export const ProjectDesc = styled.p`
     margin-bottom: 20px;
 `;
 
+export const ButtText = styled.a`
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+`;
+

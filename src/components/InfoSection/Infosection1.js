@@ -15,7 +15,8 @@ import {
   Img,
   ImgText,
   DescTitle,
-  HorizBar
+  HorizBar,
+  ButtText
 } from './Infosection.elements';
 
 function InfoSection1({
@@ -38,7 +39,8 @@ function InfoSection1({
   imgStart,
   img,
   alt,
-  start
+  start,
+  limk
 }){
     return(
       <>
@@ -55,13 +57,18 @@ function InfoSection1({
                     <Subtitle descMargin = {descMargin} lightTextDesc = {lightTextDesc}>{description2}</Subtitle>
                     <DescTitle>{descTitle2}</DescTitle>
                     <Subtitle descMargin = {descMargin} lightTextDesc = {lightTextDesc}>{description3}</Subtitle>
-                    <Button big fontbig primary = {primary}>{buttonLabel}</Button>
+                    <Button big = 'True'>
+                      <ButtText href = {limk}
+                        target = '_blank'>
+                        {buttonLabel}
+                      </ButtText>
+                  </Button>
                 </TextWrapper>
              </InfoColumn>
              <InfoColumn>
                <ImgWrapper start = {start}>
                   <Img src={img} alt={alt}/>
-                  {/* <ImgText>Ofcourse! this is not mine. I can't afford it lol :( It's my dream tho.</ImgText> */}
+
                </ImgWrapper>
                </InfoColumn>
           </InfoRow>

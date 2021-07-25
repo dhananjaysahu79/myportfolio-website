@@ -26,7 +26,9 @@ function InfoSection2({
   scolor3,
   descMargin,
   lightTextDesc,
-  subtitle,
+  subtitle1,
+  subtitle2,
+  subtitle3,
   start,
   img,
   alt
@@ -42,21 +44,21 @@ function InfoSection2({
              <Card color1 = {'#280B5B'} color2 = {'#3C52ED'}>
                 <TextWrapper>
                     <SkillTitle scolor = {scolor1}>{skillTitle1}</SkillTitle>
-                    <SkillDesc descMargin = {descMargin} >{subtitle}</SkillDesc>
+                    <SkillDesc descMargin = {descMargin} >{subtitle1}</SkillDesc>
                     <HorizBar></HorizBar>
                 </TextWrapper>
                 </Card>
                 <Card color1 = {'#3A1272'} color2 = {'#B7217E'}>
                     <TextWrapper>
                     <SkillTitle scolor = {scolor2}>{skillTitle2}</SkillTitle>
-                    <SkillDesc descMargin = {descMargin}>{subtitle}</SkillDesc>
+                    <SkillDesc descMargin = {descMargin}>{subtitle2}</SkillDesc>
                     <HorizBar></HorizBar>
                     </TextWrapper>
                 </Card>
                 <Card color1 = {'#411882'} color2 = {'#992CD9'}>
                     <TextWrapper>
                     <SkillTitle scolor = {scolor3}>{skillTitle3}</SkillTitle>
-                    <SkillDesc descMargin = {descMargin} >{subtitle}</SkillDesc>
+                    <SkillDesc descMargin = {descMargin} >{subtitle3}</SkillDesc>
                     <HorizBar></HorizBar>
                     </TextWrapper>
                 </Card>

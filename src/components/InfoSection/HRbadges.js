@@ -11,13 +11,15 @@ import {
 function HRbadges(){
     return (
         <>
-          <Infosec lightBg = {true} padd = {'20px'}>
+          <Infosec lightBg = {true} padd = {'5px'}>
             <HRContainer>
               <BadgeText>HackerRank Badges</BadgeText>
-             <BadgeContainer>
-              <Img src = {'https://drive.google.com/uc?export=download&id=16DDh67WgMRCuvtNSn2EpbRvnJPZXrgzU'}></Img>
-              <Img src = {'https://drive.google.com/uc?export=download&id=1LoFh94pxZXDerZT4tISHaU5-TMSEFIAY'}></Img>
-             </BadgeContainer>
+              <a href = 'https://www.hackerrank.com/dhananjaysahu79' target='_blank'>
+                <BadgeContainer>
+                  <Img src = {'https://drive.google.com/uc?export=download&id=16DDh67WgMRCuvtNSn2EpbRvnJPZXrgzU'}></Img>
+                  <Img src = {'https://drive.google.com/uc?export=download&id=1LoFh94pxZXDerZT4tISHaU5-TMSEFIAY'}></Img>
+                </BadgeContainer>
+              </a>
            </HRContainer>
           </Infosec>
         </>

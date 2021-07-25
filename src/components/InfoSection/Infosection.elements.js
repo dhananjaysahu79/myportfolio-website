@@ -72,6 +72,7 @@ export const Subtitle = styled.p`
 
 export const ImgWrapper = styled.div`
   max-width: 555px;
+
   justify-content: ${({start}) => start ? 'flex-start' : 'flex-end'};
   display: flex;
   /* &:hover{
@@ -90,10 +91,10 @@ export const Img = styled.img`
   max-height: 500px;
   border-radius: 4px;
 
-  &:hover{
+  /* &:hover{
     filter: blur(8px);
     -webkit-filter: blur(8px);
-  }
+  } */
 `;
 
 export const ImgText = styled.div`
@@ -118,6 +119,11 @@ export const Card = styled.div`
   margin-bottom: 20px;
   padding: 15px 15px 0px 15px;
   color: #fff;
+  &:hover{
+      transform: scale(1.06);
+      transition: all 0.3s ease-out;
+      color: #1c2237;
+  }
 `;
 
 export const SkillTitle = styled.h3`
@@ -148,6 +154,7 @@ export const HorizBar = styled.div`
 export const BadgeContainer = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 
   @media screen and (max-width: 1220px){
     flex-direction: column;
@@ -199,4 +206,11 @@ export const SkillHead = styled.h1`
     color: #fff;
     font-size: 48px;
     margin-bottom: 50px;
+`;
+
+export const ButtText = styled.a`
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
 `;

@@ -23,23 +23,23 @@ function Navbar() {
      <>
        <Nav>
         <NavbarContainer>
-          <NavLogo>
+          <NavLogo to = '/'>
              Portfolio..
           </NavLogo>
           <NavMenu click={click}>
             <NavItems>
-              <NavLinks>
+              <NavLinks to = '/' onClick = {handleClick}>
+                Home
+              </NavLinks>
+            </NavItems>
+            <NavItems>
+              <NavLinks to = '/about' onClick = {handleClick}>
                 About
               </NavLinks>
             </NavItems>
             <NavItems>
-              <NavLinks>
+              <NavLinks to = '/works' onClick = {handleClick}>
                 Works
-              </NavLinks>
-            </NavItems>
-            <NavItems>
-              <NavLinks>
-                Contact
               </NavLinks>
             </NavItems>
           </NavMenu>

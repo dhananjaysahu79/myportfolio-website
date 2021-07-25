@@ -20,5 +20,10 @@ var flutterblack = '1Q_C27HQntljcHZRU3dWOJZeykDNdA9iB';
 var pr1 = '1L1YCtKJqgp3jBVa5-7_ZUST64LH72eFF';
 var pr2 = '1tMouokzf-4w5FYyR5i8JVynlMrG62pb4';
 var pr3 = '14msWKuJyGphlH2w1B9liX-S1VANkv5o7';
-var hr1 = '16DDh67WgMRCuvtNSn2EpbRvnJPZXrgzU'
-var hr2 = '1LoFh94pxZXDerZT4tISHaU5-TMSEFIAY'
+var hr1 = '16DDh67WgMRCuvtNSn2EpbRvnJPZXrgzU';
+var hr2 = '1LoFh94pxZXDerZT4tISHaU5-TMSEFIAY';
+var resume = '1ZVElCXPuilSMA-V7-h-qSoh5Pc_xJRNP';
+
+var newfirstobject = '1OUHQXkmWNVYrIa69v2SywHYRPL-Arze-';
+var ex2 = '1F1iocsAvAja-NGNQKscJARGwR4Ilrn0G';
+var third_screen = '1JE64WN3Uq3Zx-2ThrdaERMf5Mhv1tvV0'
