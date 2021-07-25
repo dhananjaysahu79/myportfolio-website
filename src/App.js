@@ -14,9 +14,9 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Switch>
-        <Route path = '/' exact component = {Home}/>
-        <Route path = '/about' component = {About}/>
-        <Route path = '/works' component = {Works}/>
+        <Route path = '/portfolio-website' exact component = {Home}/>
+        <Route path = '/portfolio-website/about' component = {About}/>
+        <Route path = '/portfolio-website/works' component = {Works}/>
       </Switch>
       <Footer/>
     </Router>
