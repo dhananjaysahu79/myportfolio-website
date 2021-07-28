@@ -8,7 +8,6 @@ import {
 } from 'react-icons/fa'
 import {
    FooterContainer,
-   SocialMedia,
    WebsiteRights,
    SocialIcons,
    IconsContainer

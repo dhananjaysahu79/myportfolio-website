@@ -13,7 +13,9 @@ export const InfoRow = styled.div`
    flex-wrap: wrap;
    align-items: center;
    flex-direction: ${({imgStart}) => imgStart ? 'row-reverse' : 'row'};
-
+   @media screen and (max-width: 768px){
+    justify-content: center;
+   }
 `;
 
 export const InfoColumn = styled.div`
@@ -206,6 +208,9 @@ export const SkillHead = styled.h1`
     color: #fff;
     font-size: 48px;
     margin-bottom: 50px;
+    @media screen and (max-width: 768px){
+      text-align: center;
+   }
 `;
 
 export const ButtText = styled.a`

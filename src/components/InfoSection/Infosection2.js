@@ -35,12 +35,12 @@ function InfoSection2({
 }){
   return(
       <>
-        <Infosec bgColor = {bgColor}>
+        <Infosec bgColor = {bgColor} jus = {'center'}>
           <Container>
           <SkillHead>What I do?</SkillHead>
           <InfoRow>
-            <InfoColumn>
-             <InfoRow>
+            <InfoColumn >
+             <InfoRow >
              <Card color1 = {'#280B5B'} color2 = {'#3C52ED'}>
                 <TextWrapper>
                     <SkillTitle scolor = {scolor1}>{skillTitle1}</SkillTitle>
